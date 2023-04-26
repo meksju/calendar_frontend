@@ -8,7 +8,7 @@ interface Props {
     children: React.ReactNode;
 }
 
-const baseUrl: string ="https://calendar-api.onrender.com";
+const baseUrl: string ="https://calendar-api-l3gv.onrender.com";
 
 const EventProvider: React.FC<Props> = ({ children }) => {
     const [events, setEvents] = useState<CalendarEvent[]>([]);
